@@ -1,0 +1,277 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <link href="~/NongPham/Js/Footer.css" rel="stylesheet" />
+    <link href="~/NongPham/css/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/NongPham/css/NongPham.css" rel="stylesheet" />
+    <script>
+
+    </script>
+    <style>
+        #btnZaloChat {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            border-radius: 50%;
+            background-color: #028fe3;
+            position: fixed;
+            right: 0.45%;
+            bottom: 20px;
+            z-index: 100;
+        }
+
+            #btnZaloChat:hover {
+                transform: scale(1.1);
+                -webkit-transform: scale(1.1);
+                -moz-transform: scale(1.1);
+                -o-transform: scale(1.1);
+                -ms-transform: scale(1.1);
+                cursor: pointer;
+            }
+
+        .TextHover {
+            color: green;
+        }
+
+            .TextHover:hover {
+                text-decoration: none;
+            }
+
+        .Text-GreenHover {
+            color: green;
+        }
+
+            .Text-GreenHover:hover {
+                text-decoration: none;
+                background-color: #f8f9fa;
+                color: green;
+            }
+
+        .hero-image {
+            background-color: #cccccc;
+            height: 500px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .TextFooter {
+            color: white;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .TextFooter-Child {
+            color: white;
+            font-style: italic;
+        }
+
+        #navbar {
+            background-color: lightgray;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            display: block;
+            transition: top 0.3s;
+        }
+
+        .menu a:hover, .menu li:hover {
+            color: white;
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body class="bg-light mb-5">
+    <div id="navbar" style="background-color: white; " class="container-fluid fixed-top">
+        <div class="row ">
+            <div class="col-10 mr-auto">
+                <ul class="nav">
+                    <li class="nav-item nav-link Text-GreenHover">@Html.ActionLink("Giới thiệu", "GioiThieu", "TrangChu", null, new { @class = "text-decoration-none  font-weight-bold Text-GreenHover" })</li>
+                    <li class="nav-item nav-link Text-GreenHover">@Html.ActionLink("Hướng dẫn mua hàng", "HuongDan", "TrangChu", null, new { @class = "text-decoration-none  font-weight-bold Text-GreenHover" })</li>
+                    <li class="nav-item nav-link Text-GreenHover">@Html.ActionLink("Tuyển dụng", "TuyenDung", "TrangChu", null, new { @class = " Text-GreenHover text-decoration-none  font-weight-bold" })</li>
+                </ul>
+            </div>
+            <div class="col-2">
+                <ul class="nav">
+                    @ViewBag.user
+                    <li class="nav-item nav-link Text-GreenHover">@Html.ActionLink("Đăng Xuất", "DangXuat", "TrangChu", null, new { @class = "font-weight-bold Text-GreenHover" }) </li>
+
+                </ul>
+            </div>
+        </div>
+        <div style="" class="row bg-light">
+            <div style="" class="col border">
+                <nav style=" " class="navbar navbar-expand-lg bg-light">
+
+                    <div class="collapse navbar-collapse ">
+                        <ul class="navbar-nav mr-auto">
+
+                            <li class="pl-5 pt-3 nav-item nav-link">@Html.ActionLink("TRANG CHỦ", "TrangChu", "TrangChu", null, new { @class = " TextHover text-decoration-none  font-weight-bold" })</li>
+                            <li class="pl-5 pt-3 nav-item nav-link">@Html.ActionLink("KHUYẾN MÃI", "TinTucKhuyenMai", "TrangChu", null, new { @class = " TextHover text-decoration-none  font-weight-bold" })</li>
+                            <li class="pl-5 pr-5 pt-3 nav-item nav-link">@Html.ActionLink("LIÊN HỆ", "LienHeZalo", "NhanVien", null, new { @class = " TextHover text-decoration-none  font-weight-bold" })</li>
+                            <li class="pr-5 pt-3 nav-item nav-link">@Html.ActionLink("TIN TỨC", "TinTucKhuyenMai", "TrangChu", null, new { @class = " TextHover text-decoration-none  font-weight-bold" })</li>
+
+                            <li class="pl-5 nav-item ">
+
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0" action="~/TrangChu/TimKiem">
+                            <input class="form-control mr-sm-2" type="search" id="search" name="search" value="@ViewBag.Search" placeholder="Bạn đang tìm kiếm gì?">
+                            <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+                            <a class="pl-3" href='@Url.Action("GioHang", "GioHang")'>
+                                <img style="width:40%" src="~/NongPham/Images/ico_cart.png" />
+                                @Html.Action("GioHangPartial", "GioHang")
+                            </a>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div style="padding-top: 13px;" class="col-1 pl-5  ">
+                <a class="navbar-brand p-0 text-center" href="/TrangChu/TrangChu/">
+                    <img class="w-100" src="~/NongPham/Images/logo_s.png" />
+                </a>
+            </div>
+            <div class="col-8">
+                @Html.Action("LoaiSanPhamPartial", "LoaiSanPham")
+
+            </div>
+            <div class="col-3">
+            </div>
+        </div>
+    </div>
+    <br /><br /><br /><br /><br /><br /><br /><br />
+    <div style="" class="container-fluid">
+        <div class="row mt-3">
+            <div class="col">
+                <table style=" background-color: #f5fbf7; " class="table border">
+                    <thead class="table-success table border">
+                        <tr>
+                            <td style="background-color: #40aa00" colspan=" 2" class=" text-white h6 font-weight-bold">NHÀ CUNG CẤP</td>
+                        </tr>
+                    </thead>
+                    @Html.Action("NhaCungCapPartial", "NhaCungCap")
+                </table>
+            </div>
+            <div class="col-7">
+                @Html.Action("Banner", "SanPham")
+            </div>
+            <div class="col">
+                <table style="margin-right: -10px; background-color: #f5fbf7; " class="table border">
+                    <thead class="table-success table border">
+                        <tr>
+                            <td style="background-color: #40aa00" colspan=" 2" class=" text-white h6 font-weight-bold">TIN TỨC KHUYẾN MÃI</td>
+                        </tr>
+                    </thead>
+                    @Html.Action("KhuyenMaiPartial", "KhuyenMai")
+                </table>
+            </div>
+        </div>
+        <div class="row">@RenderBody()</div>
+
+    </div>
+
+
+    <!-- Site footer -->
+    <footer style="background-color:#fafafa" class="container-fluid">
+        <div style=" height: 200px; " class="row hero-image bg-success">
+            <div class="col-1 pt-5">
+            </div>
+            <div class="col pt-5">
+                <h4 class="TextFooter">ĐĂNG KÝ NHẬN THÔNG TIN ƯU ĐÃI VÀ KHUYẾN MÃI</h4><br />
+                <h6 class="TextFooter-Child">Thông tin của bạn được bảo mật tuyệt đối và bạn có thể hủy đăng ký bất cứ lúc nào</h6>
+            </div>
+            <div class="col pt-5">
+                <div class=" pl-5 rounded p-3">
+                    <form class="form-inline my-2 my-lg-0">
+
+                        <input class="form-control mr-sm-2 w-75" type="email" placeholder="Enter your Email" aria-label="Search">
+                        <button class="btn btn-light
+                                 my-2 my-sm-0" type="submit">
+                            Đăng ký
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="site-footer container-fluid">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <h6>Giới thiệu</h6>
+                        <p class="text-justify">
+                            <i class="font-weight-bold">ORANICA </i>
+                            là hệ thống phát triển và phân phối thực phẩm hữu cơ được thành lập vào đầu năm 2013 với mục tiêu giúp người tiêu dùng Việt Nam có một cuộc sống khỏe mạnh hơn thông qua những loại thực phẩm hữu cơ có chứng nhận, thực phẩm tự nhiên và không có nguồn gốc biến đổi gene (GMO).
+                        </p>
+                    </div>
+
+                    <div class="col-xs-6 col-md-3">
+                        <h6>Danh mục sản phẩm</h6>
+                        <ul class="footer-links">
+                            @Html.Action("FooterPartial", "TrangChu")
+                        </ul>
+                    </div>
+
+                    <div class="col-xs-6 col-md-3">
+                        <h6>Quick Links</h6>
+                        <ul class="footer-links">
+                            <li><a href="/TrangChu/TrangChu">Trang chủ</a></li>
+                            <li><a href="/NhanVien/LienHeZalo">Liên hệ</a></li>
+                            <li><a href="/TrangChu/TinTucKhuyenMai">Tin tức</a></li>
+                            <li><a href="/TrangChu/TinTucKhuyenMai">Khuyến mãi</a></li>
+                            <li><a href="/TrangChu/TuyenDung">Tuyển dụng</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-6 col-xs-12">
+                        <p class="copyright-text">
+                            Copyright &copy; 2018 by
+                            <a href="https://www.organica.vn/">Công ty CP đầu tư Oranica</a>.
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <ul class="social-icons">
+                            <li><a class="facebook" href="/NhanVien/LienHeZalo"><i style="margin-top:13px" class="fa fa-facebook"></i></a></li>
+                            <li><a class="twitter" href="/NhanVien/LienHeZalo"><i style="margin-top:13px" class="fa fa-twitter"></i></a></li>
+                            <li><a class="dribbble" href="/NhanVien/LienHeZalo"><i style="margin-top:13px" class="fa fa-dribbble"></i></a></li>
+                            <li><a class="linkedin" href="/NhanVien/LienHeZalo"><i style="margin-top:13px" class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="/NhanVien/LienHeZalo" id="btnZaloChat">
+        <img src="~/NongPham/Images/icon-zalo.png" alt="Zalo Burtton">
+    </a>
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-40px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</body>
+</html>

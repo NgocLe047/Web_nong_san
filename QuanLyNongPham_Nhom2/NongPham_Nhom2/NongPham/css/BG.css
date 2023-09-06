@@ -1,0 +1,54 @@
+﻿body,html {
+       text-align:center;
+     height: 100%;
+}
+.hinhnen {
+    background-Images: url('../Images/HinhDangNhap.jpg');
+    background-color: #6FB6F6;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.hinhnen2 {
+  
+    background-Images: url('../Images/HinhDangKy.jpg');
+    background-color: #6FB6F6;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.hinhnen3 {
+    position: absolute;
+    height: 60%;
+    width: 100%;
+    z-index: 1;
+}
+.hinhnen4 {
+    position: absolute;
+    z-index: 2;
+    margin-left:120px;
+    margin-top:150px;
+    height:450px;
+    opacity:0.5;
+}
+
+
+.button1{
+    background-color:#11853f;
+    font-size:20px;
+    border-radius:7px;
+    border:solid thin #11853f;
+    color:white;
+}
+
+.button2{
+    background-color:white;
+    font-size:20px;
+    border-radius:7px;
+    border:solid thin #11853f;
+    color:#11853f;
+}

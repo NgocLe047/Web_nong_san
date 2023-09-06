@@ -1,0 +1,47 @@
+﻿@model List<NongPham_Nhom2.Models.GioHang>
+@{
+    ViewBag.Title = "GioHang";
+    Layout = "~/Views/Shared/_NPLayout.cshtml";
+}
+
+<div class="container-fluid">
+    <div class="row mt-3">
+        <div class="col text-center "><div class="text-uppercase text-success text-center font-weight-bold  border-bottom border-success " style="font-size:40px;">Thông tin giỏ hàng</div></div>
+
+    </div>
+</div>
+<div class="container-fluid border-success">
+    <table class="table" style="margin-bottom: 0;">
+        <tr style="font-size:16px" class="bg-success text-white">
+            <th>MÃ SẢN PHẨM</th>
+            <th>TÊN SẢN PHẨM</th>
+            <th>ẢNH SẢN PHẨM</th>
+            <th>SỐ LƯỢNG</th>
+            <th>ĐƠN GIÁ</th>
+            <th>THÀNH TIỀN</th>
+            <th></th>
+            <th></th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr class="bg-light mb-0">
+                <td width="12%">@item.sMaSP</td>
+                <td width="20%">@item.sTenSP</td>
+                <td width="16%"><img src="~/NongPham/Images/@item.sAnhSP" alt="Ảnh sách" width="50" /></td>
+                <td width="12%">@item.iSoLuong</td>
+                <td width="10%">@String.Format("{0:0,0}", item.dDonGia)</td>
+                <td width="14%">@String.Format("{0:0,0}", item.dThanhTien)</td>
+                <td width="8%"><a href="@Url.Action("ChiTietSanPham", "SanPham", new { @MaSP = item.sMaSP })">Chi tiết</a></td>
+                <td width="8%"><a href="@Url.Action("XoaGioHang", "GioHang", new { @maSP = item.sMaSP })">Xóa</a></td>
+            </tr>
+        }
+        <tr class="bg-light mb-0">
+            <td colspan="3" style="color:blue; font-weight: bold; text-align:right;">Tổng cộng: </td>
+            <td style="color: red; font-weight:bold;">@ViewBag.TongSoLuong</td>
+            <td> </td>
+            <td style="color: red; font-weight:bold;">@String.Format("{0:0,0}", ViewBag.TongThanhTien) VNĐ</td>
+            <td></td>
+            <td><a href="@Url.Action("","")" class="btn btn-success">Thanh Toán</a></td>
+        </tr>
+    </table>
+</div>

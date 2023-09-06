@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "SanPham";
+    Layout = "~/Views/Shared/_NPLayout.cshtml";
+}
+<br />
+<br />
+<br />
+<div class="container-fluid mt-5">
+    <div class="row">
+        @Html.Action("SanPhamPartial", "SanPham")
+    </div>
+</div>
+
+@*@Html.Action("QuanLySanPham","NhanVien")*@

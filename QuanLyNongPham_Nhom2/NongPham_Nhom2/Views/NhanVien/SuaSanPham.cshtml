@@ -1,0 +1,198 @@
+﻿@model NongPham_Nhom2.Models.SanPham_
+@{
+    ViewBag.Title = "SuaSanPham";
+    Layout = "~/Views/Shared/_DangNhapLayout.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+
+    <link href="~/NongPham/css/BG.css" rel="stylesheet" />
+
+    <link href="~/NongPham/css/css/bootstrap.css" rel="stylesheet" />
+    <style>
+        .hinhnen3 {
+            position: absolute;
+            height: 60%;
+            width: 100%;
+            z-index: 1;
+        }
+
+        .hinhnen4 {
+            position: relative;
+            z-index: 2;
+            width: 1000px;
+            height: 600px;
+            text-align: center;
+            margin-left: 250px;
+        }
+
+        body {
+        }
+
+        .keepcentered {
+            position: absolute;
+            left: 50%; /* Start with top left in the center */
+            top: 100%;
+            width: 200px; /* The fixed width... */
+            height: 100px; /* ...and height */
+            margin-left: -100px; /* Shift over half the width */
+            margin-top: -50px; /* Shift up half the height */
+            border: 1px solid black; /* Just for demo */
+        }
+
+        .Div1Center {
+            background-image: url('/NongPham/Images/Blueberry.jpg');
+            background-size: cover;
+            background-position: center;
+            width: 1550px;
+            height: 900px;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        .Div2Center {
+            position: absolute;
+            z-index: 3;
+            margin-left: 35%;
+            margin-top: 15%;
+            width: 30%;
+            height: 470px;
+            background-position: center;
+            background-size: cover;
+            border-top-left-radius: 20%;
+            border-bottom-right-radius: 20%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row mt-3">
+            <div class="col text-center "><div class="text-uppercase text-success text-center font-weight-bold  border-bottom border-success " style="font-size:40px;">SỬA SẢN PHẨM</div></div>
+
+        </div>
+        <div class="row">
+            <div style="" class="Div2Center bg-light">
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.ValidationSummary(true)
+                    <div style="margin-bottom:35px;" class="row mt-4">
+                        <div class=" ibox-content">
+                            <div class="form-group">
+
+                                @Html.TextBoxFor(model => model.MaSP, new
+        {
+            @class = " form-control border-danger text-danger ",
+            placeHolder = "Mã sản phẩm",
+            @style = "width:70%;margin-left:100px"
+        })
+                                @Html.ValidationMessageFor(model => model.MaSP, "", new { @class = "text-danger" })
+
+                            </div>
+                            <div class="form-group">
+
+                                @Html.TextBoxFor(model => model.TenSP, new
+        {
+            @class = "form-control border-danger text-danger",
+            placeHolder = "Tên sản phẩm",
+            @style = "width:70%;margin-left:100px"
+        })
+                                @Html.ValidationMessageFor(model => model.TenSP, "", new { @class = "text-danger" })
+
+                            </div>
+                            <div class="form-group">
+
+                                @Html.TextBoxFor(model => model.GiaSP, new
+        {
+            @class = "form-control border-danger text-danger",
+            placeHolder = "Giá",
+            @style = "width:70%;margin-left:100px"
+        })
+                                @Html.ValidationMessageFor(model => model.GiaSP, "", new { @class = "text-danger" })
+
+                            </div>
+                            <div class="form-group">
+
+                                <div style="width:435px">
+                                    @Html.TextBoxFor(model => model.MaLoai, new
+        {
+            @class = "form-control border-danger text-danger",
+            placeHolder = "Mã loại",
+            @style = "width:70%;margin-left:100px"
+
+        })
+                                    @Html.ValidationMessageFor(model => model.MaLoai, "", new { @class = "text-danger" })
+                                </div>
+
+
+                            </div>
+                            <div class="form-group">
+
+                                <div style="width:435px">
+                                    @Html.TextBoxFor(model => model.MaNCC, new
+        {
+            @class = "form-control border-danger text-danger",
+            placeHolder = "Mã nhà cung cấp",
+            @style = "width:70%;margin-left:100px"
+
+        })
+                                    @Html.ValidationMessageFor(model => model.MaNCC, "", new { @class = "text-danger" })
+                                </div>
+
+
+                            </div>
+                            <div class="form-group">
+
+                                <div style="width:435px">
+                                    @Html.TextBoxFor(model => model.SoLuong, new
+        {
+            @class = "form-control border-danger text-danger",
+            placeHolder = "Số lượng",
+            @style = "width:70%;margin-left:100px"
+
+        })
+                                    @Html.ValidationMessageFor(model => model.SoLuong, "", new { @class = "text-danger" })
+                                </div>
+
+
+                            </div>
+                            <div class="form-group">
+                                <div style="width:435px">
+                                    @Html.TextBoxFor(model => model.AnhSP, new
+        {
+            @class = "form-control border-danger text-danger",
+            placeHolder = "Ảnh",
+            Type = "file",
+            @style = "width:70%;margin-left:100px"
+        })
+                                    @Html.ValidationMessageFor(model => model.AnhSP, "", new { @class = "text-danger" })
+                                </div>
+
+                            </div>
+                            <button style="width:70%;margin-left:70px" type="submit" class=" rounded p-1 button1 text-uppercase text-center  btn-danger">SỬA</button>
+
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+
+                    </div>
+                }
+            </div>
+
+            <div style="z-index:1" class="Div1Center">
+
+                <div class="hinhnen4 " style="border: solid 10px white; background-color:white"></div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+</html>

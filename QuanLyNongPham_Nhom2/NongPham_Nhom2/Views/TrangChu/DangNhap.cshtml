@@ -1,0 +1,105 @@
+﻿@model NongPham_Nhom2.Models.User
+
+@{
+    ViewBag.Title = "DangNhap";
+    Layout = "~/Views/Shared/_DangKyLayout.cshtml";
+
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="~/NongPham/css/BG.css" rel="stylesheet" />
+
+    <link href="~/NongPham/css/css/bootstrap.css" rel="stylesheet" />
+    <style>
+        .hinhnen {
+            background-image: url('/NongPham/Images/HinhDangNhap.jpg');
+            background-color: #6FB6F6;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hinhnen">
+        <div style="margin-left:250px;width:415px;padding-bottom:100px;" class="container-fluid row ">
+
+
+            <div style="background-color:white;margin-top:100px;padding:40px;border-radius:6px" class="container">
+                <div style="margin:-40px;background-color:#11853f;border-top-left-radius:6px;border-top-right-radius:6px" class="font-weight-bold pb-3 text-center ">
+                    <p style="font-size:25px" class="pt-4 text-uppercase text-white"> thông tin đăng nhập</p>
+
+
+                </div>
+
+                @using (Html.BeginForm("DangNhap", "TrangChu", FormMethod.Post))
+                {
+                    <div style="margin-top:50px" class="row">
+                        <div class=" ibox-content">
+                            <div class="form-group">
+                                <label>Tên đăng nhập</label>
+                                @Html.TextBoxFor(model => model.TenTK, new
+        {
+            @class = "form-control",
+            placeHolder = ""
+
+        })
+
+                                @Html.ValidationMessageFor(model => model.TenTK, "", new { @class = "text-danger" })
+
+                            </div>
+
+                            <div class="form-group">
+                                <label>Mật khẩu</label>
+                                <div style="width:335px">
+                                    @Html.TextBoxFor(model => model.MatKhau, new
+        {
+            @class = "form-control",
+            placeHolder = "",
+            Type = "password",
+
+
+        })
+                                    @Html.ValidationMessageFor(model => model.MatKhau, "", new { @class = "text-danger" })
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class=" text-center">
+                            <p>
+                                <label>
+                                    @Html.CheckBoxFor(model => model.Check1)   Nhớ mật khẩu
+                                </label>
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <button type="submit" class="rounded p-1 button1 text-uppercase text-center  w-100">ĐĂNG NHẬP</button>
+                    </div>
+
+                    <div class="row">
+                        <p style="color:gray;margin-top:10px;margin-bottom:-1px">Chưa có tài khoản?</p>
+                        <a style="text-decoration:none" href="/TrangChu/DangKy" class="rounded p-1 button2 text-center w-100  text-uppercase">TẠO TÀI KHOẢN MỚI </a>
+                    </div>
+                }
+            </div>
+
+        </div>
+    </div>
+
+    <br />
+    <br />
+
+
+</body>
+</html>

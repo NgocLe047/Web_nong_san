@@ -1,0 +1,136 @@
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\2001203020_KhucHongNhung_LTW\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\NongPham_Nhom2.dll.config
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\2001203020_KhucHongNhung_LTW\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\NongPham_Nhom2.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\2001203020_KhucHongNhung_LTW\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\NongPham_Nhom2.pdb
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\2001203020_KhucHongNhung_LTW\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\2001203020_KhucHongNhung_LTW\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\2001203020_KhucHongNhung_LTW\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\2001203020_KhucHongNhung_LTW\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Helpers.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\2001203020_KhucHongNhung_LTW\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Mvc.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\2001203020_KhucHongNhung_LTW\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Razor.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\2001203020_KhucHongNhung_LTW\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\2001203020_KhucHongNhung_LTW\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.WebPages.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\2001203020_KhucHongNhung_LTW\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\2001203020_KhucHongNhung_LTW\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\2001203020_KhucHongNhung_LTW\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Helpers.xml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\2001203020_KhucHongNhung_LTW\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Mvc.xml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\2001203020_KhucHongNhung_LTW\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Razor.xml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\2001203020_KhucHongNhung_LTW\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.WebPages.xml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\2001203020_KhucHongNhung_LTW\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\2001203020_KhucHongNhung_LTW\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\2001203020_KhucHongNhung_LTW\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\obj\Debug\NongPham_Nhom2.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\2001203020_KhucHongNhung_LTW\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\obj\Debug\NongPham_Nhom2.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\2001203020_KhucHongNhung_LTW\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\obj\Debug\NongPham_Nhom2.pdb
+C:\Onedrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\obj\Debug\NongPham_Nhom2.dll
+C:\Onedrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\NongPham_Nhom2.dll.config
+C:\Onedrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\NongPham_Nhom2.dll
+C:\Onedrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\NongPham_Nhom2.pdb
+C:\Onedrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\Microsoft.Web.Infrastructure.dll
+C:\Onedrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Onedrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\Newtonsoft.Json.dll
+C:\Onedrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Helpers.dll
+C:\Onedrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Mvc.dll
+C:\Onedrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Razor.dll
+C:\Onedrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.WebPages.Deployment.dll
+C:\Onedrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.WebPages.dll
+C:\Onedrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.WebPages.Razor.dll
+C:\Onedrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\Newtonsoft.Json.xml
+C:\Onedrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Helpers.xml
+C:\Onedrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Mvc.xml
+C:\Onedrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Razor.xml
+C:\Onedrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.WebPages.xml
+C:\Onedrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.WebPages.Deployment.xml
+C:\Onedrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.WebPages.Razor.xml
+C:\Onedrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\obj\Debug\NongPham_Nhom2.pdb
+C:\Users\duyng\OneDrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\NongPham_Nhom2.dll.config
+C:\Users\duyng\OneDrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\NongPham_Nhom2.dll
+C:\Users\duyng\OneDrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\NongPham_Nhom2.pdb
+C:\Users\duyng\OneDrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\duyng\OneDrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\duyng\OneDrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\Newtonsoft.Json.dll
+C:\Users\duyng\OneDrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Net.Http.Formatting.dll
+C:\Users\duyng\OneDrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Helpers.dll
+C:\Users\duyng\OneDrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Http.dll
+C:\Users\duyng\OneDrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Http.WebHost.dll
+C:\Users\duyng\OneDrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Mvc.dll
+C:\Users\duyng\OneDrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Razor.dll
+C:\Users\duyng\OneDrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\duyng\OneDrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.WebPages.dll
+C:\Users\duyng\OneDrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.WebPages.Razor.dll
+C:\Users\duyng\OneDrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\Newtonsoft.Json.xml
+C:\Users\duyng\OneDrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Net.Http.Formatting.xml
+C:\Users\duyng\OneDrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Helpers.xml
+C:\Users\duyng\OneDrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Http.xml
+C:\Users\duyng\OneDrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Http.WebHost.xml
+C:\Users\duyng\OneDrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Mvc.xml
+C:\Users\duyng\OneDrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Razor.xml
+C:\Users\duyng\OneDrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.WebPages.xml
+C:\Users\duyng\OneDrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\duyng\OneDrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.WebPages.Razor.xml
+C:\Users\duyng\OneDrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\obj\Debug\NongPham_Nhom2.dll
+C:\Users\duyng\OneDrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\obj\Debug\NongPham_Nhom2.pdb
+C:\Users\duyng\OneDrive\Desktop\Test_AllProject\New folder\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\NongPham_Nhom2.dll.config
+C:\Users\duyng\OneDrive\Desktop\Test_AllProject\New folder\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\NongPham_Nhom2.dll
+C:\Users\duyng\OneDrive\Desktop\Test_AllProject\New folder\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\NongPham_Nhom2.pdb
+C:\Users\duyng\OneDrive\Desktop\Test_AllProject\New folder\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\duyng\OneDrive\Desktop\Test_AllProject\New folder\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\duyng\OneDrive\Desktop\Test_AllProject\New folder\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\Newtonsoft.Json.dll
+C:\Users\duyng\OneDrive\Desktop\Test_AllProject\New folder\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Net.Http.Formatting.dll
+C:\Users\duyng\OneDrive\Desktop\Test_AllProject\New folder\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Helpers.dll
+C:\Users\duyng\OneDrive\Desktop\Test_AllProject\New folder\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Http.dll
+C:\Users\duyng\OneDrive\Desktop\Test_AllProject\New folder\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Http.WebHost.dll
+C:\Users\duyng\OneDrive\Desktop\Test_AllProject\New folder\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Mvc.dll
+C:\Users\duyng\OneDrive\Desktop\Test_AllProject\New folder\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Razor.dll
+C:\Users\duyng\OneDrive\Desktop\Test_AllProject\New folder\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\duyng\OneDrive\Desktop\Test_AllProject\New folder\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.WebPages.dll
+C:\Users\duyng\OneDrive\Desktop\Test_AllProject\New folder\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.WebPages.Razor.dll
+C:\Users\duyng\OneDrive\Desktop\Test_AllProject\New folder\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\Newtonsoft.Json.xml
+C:\Users\duyng\OneDrive\Desktop\Test_AllProject\New folder\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Net.Http.Formatting.xml
+C:\Users\duyng\OneDrive\Desktop\Test_AllProject\New folder\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Helpers.xml
+C:\Users\duyng\OneDrive\Desktop\Test_AllProject\New folder\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Http.xml
+C:\Users\duyng\OneDrive\Desktop\Test_AllProject\New folder\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Http.WebHost.xml
+C:\Users\duyng\OneDrive\Desktop\Test_AllProject\New folder\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Mvc.xml
+C:\Users\duyng\OneDrive\Desktop\Test_AllProject\New folder\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Razor.xml
+C:\Users\duyng\OneDrive\Desktop\Test_AllProject\New folder\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.WebPages.xml
+C:\Users\duyng\OneDrive\Desktop\Test_AllProject\New folder\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\duyng\OneDrive\Desktop\Test_AllProject\New folder\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.WebPages.Razor.xml
+C:\Users\duyng\OneDrive\Desktop\Test_AllProject\New folder\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\obj\Debug\NongPham_Nhom2.csprojResolveAssemblyReference.cache
+C:\Users\duyng\OneDrive\Desktop\Test_AllProject\New folder\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\obj\Debug\NongPham_Nhom2.dll
+C:\Users\duyng\OneDrive\Desktop\Test_AllProject\New folder\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\obj\Debug\NongPham_Nhom2.pdb
+C:\Users\duyng\OneDrive\Desktop\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\NongPham_Nhom2.dll.config
+C:\Users\duyng\OneDrive\Desktop\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\NongPham_Nhom2.dll
+C:\Users\duyng\OneDrive\Desktop\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\NongPham_Nhom2.pdb
+C:\Users\duyng\OneDrive\Desktop\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\duyng\OneDrive\Desktop\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\duyng\OneDrive\Desktop\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\Newtonsoft.Json.dll
+C:\Users\duyng\OneDrive\Desktop\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Net.Http.Formatting.dll
+C:\Users\duyng\OneDrive\Desktop\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Helpers.dll
+C:\Users\duyng\OneDrive\Desktop\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Http.dll
+C:\Users\duyng\OneDrive\Desktop\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Http.WebHost.dll
+C:\Users\duyng\OneDrive\Desktop\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Mvc.dll
+C:\Users\duyng\OneDrive\Desktop\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Razor.dll
+C:\Users\duyng\OneDrive\Desktop\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\duyng\OneDrive\Desktop\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.WebPages.dll
+C:\Users\duyng\OneDrive\Desktop\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.WebPages.Razor.dll
+C:\Users\duyng\OneDrive\Desktop\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\Newtonsoft.Json.xml
+C:\Users\duyng\OneDrive\Desktop\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Net.Http.Formatting.xml
+C:\Users\duyng\OneDrive\Desktop\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Helpers.xml
+C:\Users\duyng\OneDrive\Desktop\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Http.xml
+C:\Users\duyng\OneDrive\Desktop\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Http.WebHost.xml
+C:\Users\duyng\OneDrive\Desktop\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Mvc.xml
+C:\Users\duyng\OneDrive\Desktop\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.Razor.xml
+C:\Users\duyng\OneDrive\Desktop\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.WebPages.xml
+C:\Users\duyng\OneDrive\Desktop\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\duyng\OneDrive\Desktop\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\System.Web.WebPages.Razor.xml
+C:\Users\duyng\OneDrive\Desktop\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\obj\Debug\NongPham_Nhom2.csprojResolveAssemblyReference.cache
+C:\Users\duyng\OneDrive\Desktop\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\obj\Debug\NongPham_Nhom2.dll
+C:\Users\duyng\OneDrive\Desktop\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\obj\Debug\NongPham_Nhom2.pdb
+C:\Users\duyng\OneDrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\PagedList.dll
+C:\Users\duyng\OneDrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\PagedList.Mvc.dll
+C:\Users\duyng\OneDrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\PagedList.xml
+C:\Users\duyng\OneDrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\PagedList.Mvc.xml
+C:\Onedrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\PagedList.dll
+C:\Onedrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\PagedList.Mvc.dll
+C:\Onedrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\PagedList.xml
+C:\Onedrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\bin\PagedList.Mvc.xml
+C:\Onedrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\obj\Debug\NongPham_Nhom2.csprojResolveAssemblyReference.cache
+C:\Users\duyng\OneDrive\Share\QuanLyNongPham_Nhom2\QuanLyNongPham_Nhom2\NongPham_Nhom2\obj\Debug\NongPham_Nhom2.csprojResolveAssemblyReference.cache

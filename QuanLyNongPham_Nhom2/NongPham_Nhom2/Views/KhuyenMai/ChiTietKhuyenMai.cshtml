@@ -1,0 +1,80 @@
+﻿@using NongPham_Nhom2.Models
+@model KhuyenMai_
+@{
+    ViewBag.Title = "ChiTiet";
+    Layout = "~/Views/Shared/_NPLayout.cshtml";
+}
+<link href="~/NongPham/css/css/bootstrap.css" rel="stylesheet" />
+<br />
+<br />
+<div class="container-fluid">
+    <div class="row mt-3">
+        <div class="col text-center "><div class="text-uppercase text-success text-center font-weight-bold  border-bottom border-success " style="font-size:40px;">Chi tiết khuyến mãi</div></div>
+
+    </div>
+
+    <div style="border: 1px solid black; background-color: white; border-radius: 2px; padding: 20px;" class="container-fluid">
+        <div class="row">
+            <div class="col-4">
+                <img style="width: 80%; height:80%; -o-object-fit: cover;" src="~/NongPham/Images/@Model.AnhKM" />
+
+            </div>
+            <div class="col-5">
+                <label class="font-weight-bold" style="width:300px;height:50px;font-size:16px;">Nhập mã: <label class="h3 font-weight-bold text-danger">@Model.TenKM</label></label>
+
+
+                <div class="row">
+                    <label class="border  bg-light" style="width:300px;height:50px;font-size:30px;border-radius:10px">Giảm đến: <label class="font-weight-bold text-danger">@Model.GiaGiam</label><span class="font-weight-bold text-danger">đ</span></label>
+
+                </div>
+                <div class="row">
+
+                    <h5>Mô tả:</h5>
+                </div>
+                <div class="row">
+                    <label style="font-weight:400;font-size:20px;">@Model.MoTa</label>
+                </div>
+                <div class="row">
+                    <label class="col text-right" style="font-weight:400;font-size:16px;">Ngày bắt đầu: @Model.NgayBatDau</label>
+                </div>
+                <div class="row">
+                    <label class="col text-right" style="font-weight:400;font-size:16px;">Ngày kết thúc: @Model.NgayKetThuc</label>
+                </div>
+
+            </div>
+            <div class="col-3  border bg-light" style="border-radius:10px;height:300px;">
+                <div class="row">
+                    <h4 class="pl-5 pt-3">Chỉ có tại Oranica</h4>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+
+                        <img width="50" src="~/NongPham/Images/policy_product_1.jpg" />
+                    </div>
+                    <div class="col-9">
+                        <label style="font-size:19px;padding-top:10px;">Giao hàng trong 4H</label>
+                    </div>
+                </div>
+                <div class="row" style="padding-top:10px">
+                    <div class="col-3">
+
+                        <img width="50" src="~/NongPham/Images/policy_product_2.jpg" />
+                    </div>
+                    <div class="col-9">
+                        <label style="font-size:19px;">Đổi trả trong 48H nếu sản phẩm không đạt chất lượng cam kết</label>
+                    </div>
+                </div>
+                <div class="row" style=" padding-top:10px">
+                    <div class="col-3">
+
+                        <img width="50" src="~/NongPham/Images/policy_product_1.jpg" />
+                    </div>
+                    <div class="col-9">
+                        <label style="font-size:19px;padding-top:10px;">Giao hàng trong 4H</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

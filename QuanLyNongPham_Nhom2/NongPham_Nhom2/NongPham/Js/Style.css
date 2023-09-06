@@ -1,0 +1,27 @@
+﻿
+#slideshow {
+  overflow: hidden;
+  height: 510px;
+  width: 850px;
+  margin: 0 auto;
+}
+
+.slide-wrapper {
+  width: 3400px;
+  -webkit-animation: slide 14s ease infinite;
+}
+
+.slide {
+  float: left;
+  height: 510px;
+  width: 850px;
+}
+
+
+@-webkit-keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -850px;}
+  50% {margin-left: -850px;}
+  60% {margin-left: -1700px;}
+  80% {margin-left: -1700px;}
+}

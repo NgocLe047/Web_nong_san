@@ -1,0 +1,23 @@
+﻿@using NongPham_Nhom2.Models
+@model List<KhuyenMai_>
+
+@foreach (var item in Model)
+{
+    <tr class="">
+        <td width="40%" style="text-decoration:none" class="text-success">
+            <a href="@Url.Action("ChiTietKhuyenMai", "KhuyenMai", new { MaKM=item.MaKM },null)">
+                <img style="width:100%" src="/NongPham/Images/@item.AnhKM" />
+            </a>
+        </td>
+        <td width="60%" style="text-decoration:none" class="text-left text-danger font-weight-bold">
+            <a class="text-danger" style="text-decoration:none" href="@Url.Action("ChiTietKhuyenMai", "KhuyenMai", new { MaKM=item.MaKM },null)">
+                @item.TenKM
+            </a>
+            <p style="" class="text-dark font-weight-normal">@item.MoTa</p>
+
+        </td>
+    </tr>
+}
+
+
+

@@ -1,0 +1,41 @@
+﻿@model IEnumerable<NongPham_Nhom2.Models.SanPham_>
+@{
+    ViewBag.Title = "QuanLySanPham";
+    Layout = "~/Views/Shared/_DangNhapLayout.cshtml";
+}
+<link href="~/NongPham/css/css/bootstrap.css" rel="stylesheet" />
+<body>
+    <div class="container-fluid">
+        <div class="row mt-2">
+            @foreach (var item in Model)
+            {
+                <div class="col-2 mt-2 mb-2" style="min-width: 200px; min-height: 310px; ">
+                    <div class="card" style="text-align: center; height: 100%; max-width: 250px">
+                        <img class="card-img-top" src="~/NongPham/Images/@item.AnhSP" style="min-width: 50px; min-height: 50px; height: 170px; width: 100%; " />
+                        <div class="card-body">
+                            <h6 class="card-title text-center" style="">@Html.DisplayFor(modelItem => item.TenSP)</h6>
+                            <h6 class="card-title text-danger">Mã SP: @Html.DisplayFor(modelItem => item.MaSP)</h6>
+                            <h6 class="card-title text-danger">Giá: @Html.DisplayFor(modelItem => item.GiaSP)</h6>
+                            <p class="card-text">
+                                <a href="@Url.Action("SuaSanPham", "NhanVien", new {ID = item.MaSP })"><input type="submit" value="Sửa" class="btn btn-success font-weight-bold" /></a>
+                                <a href="@Url.Action("XoaSanPham", "NhanVien", new {ID = item.MaSP })"><input type="submit" value="Xóa" class="btn btn-success font-weight-bold" /></a>
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            }
+
+        </div>
+        <div class="row ">
+            <div class="col">
+                <a href="@Url.Action("ThemSanPham", "NhanVien")"><input type="submit" value="Thêm" class="w-100 btn btn-success font-weight-bold" /></a>
+            </div>
+
+        </div>
+
+        <br />
+        <br />
+
+    </div>
+</body>

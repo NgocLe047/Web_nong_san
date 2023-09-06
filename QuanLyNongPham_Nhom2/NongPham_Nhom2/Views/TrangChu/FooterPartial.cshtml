@@ -1,0 +1,8 @@
+﻿@model IEnumerable<NongPham_Nhom2.Models.LoaiSanPham_>
+
+@foreach (var item in Model)
+{
+    <li>
+        <a href="@Url.Action("SanPhamTheoLoai", "LoaiSanPham", new { MaLoai = item.MaLoai })" style=" text-decoration: none;">@item.TenLoai</a>
+    </li>
+}

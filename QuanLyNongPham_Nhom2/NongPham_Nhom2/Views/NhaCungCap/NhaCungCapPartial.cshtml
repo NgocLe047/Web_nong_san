@@ -1,0 +1,15 @@
+﻿@model IEnumerable<NongPham_Nhom2.Models.NhaCungCap_>
+<style>
+    .text-green {
+        color: green;
+    }
+</style>
+@foreach (var item in Model)
+{
+    <tr class="">
+        <td style="text-decoration:none" class=" font-weight-bold ">
+            <a href="@Url.Action("SanPhamTheoNhaCungCap", "NhaCungCap", new { MaNCC = item.MaNCC })" class="text-success" style="text-decoration:none">@item.TenNCC</a>
+
+        </td>
+    </tr>
+}

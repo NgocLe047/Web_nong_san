@@ -1,0 +1,96 @@
+﻿@using NongPham_Nhom2.Models
+@model SanPham_
+@{
+    ViewBag.Title = "ChiTiet";
+    Layout = "~/Views/Shared/_NPLayout.cshtml";
+}
+<link href="~/NongPham/css/css/bootstrap.css" rel="stylesheet" />
+<script>
+    function up(max) {
+        document.getElementById("myNumber").value = parseInt(document.getElementById("myNumber").value) + 1;
+        if (document.getElementById("myNumber").value >= parseInt(max)) {
+            document.getElementById("myNumber").value = max;
+        }
+    }
+    function down(min) {
+        document.getElementById("myNumber").value = parseInt(document.getElementById("myNumber").value) - 1;
+        if (document.getElementById("myNumber").value <= parseInt(min)) {
+            document.getElementById("myNumber").value = min;
+        }
+    }
+
+</script>
+<br />
+<br />
+<div class="container-fluid">
+    <div class="row mt-3">
+        <div class="col text-center "><div class="text-uppercase text-success text-center font-weight-bold  border-bottom border-success " style="font-size:40px;">Chi tiết sản phẩm</div></div>
+
+    </div>
+    <div style="border: 1px solid black; background-color: white; border-radius: 2px; padding: 20px;" class="container-fluid">
+        <div class="row">
+            <div class="col-4">
+                <img style="width: 80%; height:80%; -o-object-fit: cover;" src="~/NongPham/Images/@Model.AnhSP" />
+
+            </div>
+            <div class="col-5">
+                <h3>@Model.TenSP</h3>
+                <div class="row">
+                    <label style="font-weight:400;font-size:20px;">Loại: @ViewBag.TenLoai | Số lượng còn: @Model.SoLuong</label>
+                </div>
+                <div class="row">
+                    <label class="border font-weight-bold text-danger bg-light" style="width:300px;height:50px;font-size:30px;border-radius:10px">Giá: @Model.GiaSP<span>đ</span></label>
+
+                </div>
+                <div class="row">
+                    <h5>Số lượng: </h5>
+                </div>
+                <div class="row">
+                    <button id="down" class="btn btn-outline-danger" onclick=" down('0')">-</button>
+                    <input style="width:100px;" type="text" id="myNumber" class="form-control input-number border border-danger" value="1" />
+                    <button id="up" class="btn btn-outline-danger" onclick="up('99')">+</button>
+                </div>
+                <div class="row pt-3">
+                    <a class="pr-1" href="@Url.Action("ThemGioHang", "GioHang", new { @maSP = Model.MaSP, @strURL = Request.Url.ToString() })"><input type="submit" value="MUA NGAY" class="btn btn-success" /></a>
+                    <a href="@Url.Action("TrangChu", "TrangChu")"><input type="submit" value="MUA TIẾP" class="btn btn-success" /></a>
+                </div>
+                <div class="row pt-3">
+                    <h5>Mô tả sản phẩm:</h5>
+                    <p style="font-size:18px;">@Model.ThanhPhanSP</p>
+                </div>
+            </div>
+            <div class="col-3  border bg-light" style="border-radius:10px;height:300px;">
+                <div class="row">
+                    <h4 class="pl-5 pt-3">Chỉ có tại Oranica</h4>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+
+                        <img width="50" src="~/NongPham/Images/policy_product_1.jpg" />
+                    </div>
+                    <div class="col-9">
+                        <label style="font-size:19px;padding-top:10px;">Giao hàng trong 4H</label>
+                    </div>
+                </div>
+                <div class="row" style="padding-top:10px">
+                    <div class="col-3">
+
+                        <img width="50" src="~/NongPham/Images/policy_product_2.jpg" />
+                    </div>
+                    <div class="col-9">
+                        <label style="font-size:19px;">Đổi trả trong 48H nếu sản phẩm không đạt chất lượng cam kết</label>
+                    </div>
+                </div>
+                <div class="row" style=" padding-top:10px">
+                    <div class="col-3">
+
+                        <img width="50" src="~/NongPham/Images/policy_product_1.jpg" />
+                    </div>
+                    <div class="col-9">
+                        <label style="font-size:19px;padding-top:10px;">Giao hàng trong 4H</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
